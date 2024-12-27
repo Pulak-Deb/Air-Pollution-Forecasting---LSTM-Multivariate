@@ -17,7 +17,7 @@ For demonstration purposes, a synthetic dataset is created with realistic featur
 - **GRU Architecture**: A deep learning model designed to capture temporal dependencies.  
 - **Evaluation Metrics**: Utilized RMSE (Root Mean Squared Error) for assessing model performance.  
 - **Visualization**: Forecasted vs. actual values to assess prediction accuracy.
-![loss vs val_loss](model_loss.png)
+  ![loss vs val_loss](model_loss.png)
 ![last_month_pollution](last_month_pollution.png)
 ![actual_vs_predicted_pollution_last_week](actual_vs_predicted_pollution_last_week.png)
 
