@@ -7,7 +7,7 @@ This project demonstrates the application of Long Short-Term Memory (LSTM) netwo
 The dataset contains the following features: pollution (Target Variable), Temperature, Dew,Wind Speed, Wind direction, Snow, Date_Time.
 For demonstration purposes, a synthetic dataset is created with realistic features. For real-world implementation, data from air quality monitoring stations or public repositories can be utilized.
 
-![pollution variation](pollution variation.png)
+![Pollution_Variation](pollution_variation.png)
 
 ---
 ## **Model Architecture**  
