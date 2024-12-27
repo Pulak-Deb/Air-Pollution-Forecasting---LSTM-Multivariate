@@ -7,18 +7,23 @@ This project demonstrates the application of Long Short-Term Memory (LSTM) netwo
 
 ## **Dataset**  
 The dataset contains the following features:  
-- **PM2.5 Concentration** (Target Variable)  
+- **pollution** (Target Variable)  
 - **Temperature**  
-- **Humidity**  
-- **Wind Speed**  
+- **Dew**  
+- **Wind Speed**
+- **Wind direction**
+- **Snow**
+- **Date_Time**  
 
 For demonstration purposes, a synthetic dataset is created with realistic features. For real-world implementation, data from air quality monitoring stations or public repositories can be utilized.
 
 ---
 
-## **Key Features**  
-- **Multivariate Time-Series Forecasting**: Considers multiple environmental factors.  
-- **Data Preprocessing**: Includes handling missing values, feature scaling, and creating sequences for LSTM input.  
-- **LSTM Architecture**: A deep learning model designed to capture temporal dependencies.  
+## **Model Architecture**  
+- **Number of Layers**:  2 LSTM layers.  
+- **Units per Layer**: 1st Layer has 128 neurons and 2nd Layer has 32 neurons.
+- **Optimizer**: Adam
+- **GRU Architecture**: A deep learning model designed to capture temporal dependencies.  
 - **Evaluation Metrics**: Utilized RMSE (Root Mean Squared Error) for assessing model performance.  
 - **Visualization**: Forecasted vs. actual values to assess prediction accuracy.
+  
