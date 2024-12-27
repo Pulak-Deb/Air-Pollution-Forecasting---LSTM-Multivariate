@@ -1,14 +1,9 @@
 # **Air Pollution Forecasting - LSTM Multivariate**
-
 ## **Overview**  
 This project demonstrates the application of Long Short-Term Memory (LSTM) networks for multivariate time-series forecasting. The goal is to predict air pollution levels based on historical environmental and meteorological data. By leveraging deep learning techniques, this project addresses challenges in air quality management, urban planning, and health risk mitigation.
-
 ---
-
 ## **Dataset**  
-The dataset contains the following features:  
-- **pollution** (Target Variable)  
-- **Temperature**  
+The dataset contains the following features:  *pollution* (Target Variable) , *Temperature**  
 - **Dew**  
 - **Wind Speed**
 - **Wind direction**
