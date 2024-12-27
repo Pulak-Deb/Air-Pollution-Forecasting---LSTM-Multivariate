@@ -19,5 +19,6 @@ For demonstration purposes, a synthetic dataset is created with realistic featur
 - **Visualization**: Forecasted vs. actual values to assess prediction accuracy.
 ![loss vs val_loss](model_loss.png)
 ![last_month_pollution](last_month_pollution.png)
+![actual_vs_predicted_pollution_last_week](actual_vs_predicted_pollution_last_week.png)
 
 
